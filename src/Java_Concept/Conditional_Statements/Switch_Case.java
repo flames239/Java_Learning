@@ -13,7 +13,7 @@ public class Switch_Case {
         * }
         * */
 
-        int day = 4;
+        int day = 4; // can be any data type
         switch (day) {
             case 1:
                     System.out.println("Monday");
