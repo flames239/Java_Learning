@@ -17,9 +17,12 @@ public class Two_Dimensional {
 //        System.out.println(lengthRow);
 //        System.out.println(lengthCol);
 
-//        for(int b[] : a) {
-//           System.out.println(b[a]);
-//        }
+        for(int b[] : a) {
+            for(int c : b) {
+                System.out.print(c);
+            }
+          System.out.println();
+        }
 
         // Approach 2
         int b[][] = {
