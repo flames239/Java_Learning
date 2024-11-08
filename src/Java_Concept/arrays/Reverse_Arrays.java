@@ -1,14 +1,16 @@
 package Java_Concept.arrays;
 
+import java.util.Arrays;
+
 public class Reverse_Arrays {
     public static void main(String[] args) {
 
-        int a[] = {1,2,3,4,5};
+        int a[] = {2,1,5,8,9};
 
         // khai bao do dai cua mang truoc
         int rev[] = new int[a.length];
 
-        // khai bao index = 0 de kiem tra
+        // store elements in the rev array and is incremented progressively as you fill the array
         int index = 0;
 
         for(int i = a.length - 1; i >= 0; i --){
