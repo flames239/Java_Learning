@@ -1,5 +1,6 @@
 package Java_Concept.string;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 public class Example4 {
@@ -32,6 +33,18 @@ public class Example4 {
         System.out.println("using toLowerCase: " + lowStr2);
         System.out.println("using toUpperCase: " + upperStr3);
 
+        // split() - create multiple String based on delimeter
+        // some special char not use (* % ^)
+        String str4 = "Nam Ha Hoc Selenium WebDriver";
+        String split[] = str4.split(" ");
+        System.out.println("Using split: " +split[4]);
 
+        String str5 = "Hoc,Selenium,Webdriver,kho,hay,de";
+        String split1[] = str5.split("Webdriver",1);
+        System.out.println("Using split with regex and limit: " + Arrays.toString(split1));
+
+        String str6 = "nam123456@yopmail.com";
+        String split2[] = str6.split("123456");
+        System.out.println(split2[0]);
     }
 }
