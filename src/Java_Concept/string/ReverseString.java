@@ -21,5 +21,17 @@ public class ReverseString {
         }
         System.out.println(rev1);
 
+        // Approach 3
+        StringBuffer str2 = new StringBuffer("Truyen chuoi vao day");
+        StringBuffer revInBuild = str2.reverse();
+        System.out.println("Inbuild Java StringBuffer: " + revInBuild);
+
+        // Approach 4
+        StringBuilder str3 = new StringBuilder("Hoc Selenium Webdriver From A - Z");
+        StringBuilder revInBuildSB = str3.reverse();
+        System.out.println("Inbuild Java StringBuilder: " + revInBuildSB);
+
+
+
     }
 }
