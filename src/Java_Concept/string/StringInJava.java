@@ -27,6 +27,5 @@ public class StringInJava {
         String s3 = " Patient";
         System.out.println("using concat: " + s1.concat(s2).concat(s3));
 
-
     }
 }
