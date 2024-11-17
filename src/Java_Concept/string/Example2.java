@@ -12,6 +12,6 @@ public class Example2 {
         // return single characters in the String
         String str1 = "Java Object Oritent Program";
         // int indexStr1 = str1.charAt(2); converted to corresponding ASCII (or Unicode) => so it print results = 118
-        System.out.println("index of the Str1:" + str1.charAt(2));
+        System.out.println("charAt index Str1 is: " + str1.charAt(2));
     }
 }

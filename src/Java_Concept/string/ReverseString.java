@@ -30,8 +30,5 @@ public class ReverseString {
         StringBuilder str3 = new StringBuilder("Hoc Selenium Webdriver From A - Z");
         StringBuilder revInBuildSB = str3.reverse();
         System.out.println("Inbuild Java StringBuilder: " + revInBuildSB);
-
-
-
     }
 }
