@@ -9,6 +9,5 @@ public class CountOccurrencesInString {
         int temp = str.replace("o","").length();
         int count =  leng - temp;
         System.out.println("Count occurrences in string given: " + count);
-
     }
 }
