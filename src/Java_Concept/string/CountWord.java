@@ -13,6 +13,5 @@ public class CountWord {
             }
         }
         System.out.println("String given have: " + count +" word");
-
     }
 }
