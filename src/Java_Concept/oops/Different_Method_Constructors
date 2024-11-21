@@ -1,0 +1,14 @@
+1- Method name can be anything
+Constructors name same as class name
+
+2- Method has return type - if no return, specify void
+Constructors doesn't need specify return type
+
+3- Method take input params
+Constructors can take input params
+
+4- Method can call using objects
+Constructors call using objects creation - auto
+
+5- Methods used to define login (for loop, complex logic)
+Constructors use it to initialize values

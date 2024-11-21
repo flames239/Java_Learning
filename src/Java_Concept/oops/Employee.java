@@ -7,11 +7,19 @@ public class Employee {
     double salary;
 
     // Default Constructors - no input parameters
+    // no need return type
     Employee() {
         System.out.println("Default Constructors");
         empID = 1002;
         empName = "Nandela";
         salary = 254.5;
+    }
+
+    // parameterized constructor
+    Employee(int id, String name, double sal) {
+        empID = id;
+        empName = name;
+        salary = sal;
     }
 
     // initilize data
@@ -44,5 +52,9 @@ public class Employee {
         // approach 3 - using a Constructors
         Employee emp1 = new Employee();
         emp1.printEmpData();
+
+        // approach 4 - using parameterized constructors - initialize values
+        Employee emp2 = new Employee(700,"Nam",586.5);
+        emp2.printEmpData();
     }
 }
