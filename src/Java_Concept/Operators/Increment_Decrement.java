@@ -29,8 +29,5 @@ public class Increment_Decrement {
         double result3 = --c; // Pre decrement operation (value is increments first then get assigned to the result)
         System.out.println("--a3 = " + a3);
         System.out.println("result3 = " + result3);
-
-
-
     }
 }
