@@ -2,9 +2,9 @@ package Java_Concept.statickeyword;
 
 public class MyClass {
 
-    static int count;
+    static int count; // static variable
 
-    int instance;
+    int instance; //
 
     MyClass() {
         count = 0;
