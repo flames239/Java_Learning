@@ -20,6 +20,7 @@ public class MyClass {
         System.out.println("variable static call in static method: " + count);
         // int d = instance; non-static can't call directly to static
 
+        int c123 = MyClass.count;
 
     }
 

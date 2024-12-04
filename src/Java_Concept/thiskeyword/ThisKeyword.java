@@ -11,10 +11,9 @@ public class ThisKeyword {
 //    }
 
     ThisKeyword(double x, double y) {
-        // a and b are Local Variables
+        // x and y are Local Variables
         this.x=x;
         this.y=y;
-        // initilized variable values
     }
 
 
