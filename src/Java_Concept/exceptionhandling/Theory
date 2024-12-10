@@ -1,0 +1,12 @@
+Is an event, occurs during execution of a program, will disrupts normal flow of the program
+
+is an unexpected event -> happens during execution
+
+
+Diagram -> Object (Parent class)
+        -> Throwable (child)
+        -> Error([unchecked] OutOfMemoryError, StackOverFlowError ), Exception ([checked]child class of parent Throwable)
+                                                                     In Exception (Have 2 type -> runtimeException and OtherException
+
+Unchecked -> happen during runtime and compilar not identify
+Checked -> it's identified by compiler

@@ -1,0 +1,4 @@
+1) public - access everywhere
+2) protected - within same package and in different package also using inheritance by child class
+3) default - without specify modify and within the same package
+4) private - only within same class (variables and method)
