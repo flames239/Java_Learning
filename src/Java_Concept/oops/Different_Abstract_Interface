@@ -1,0 +1,20 @@
+Abstracts
++ Have abstract and non-abstract methods
++ Doesn't support multiple inheritance
++ can have final, non-final, static, non-static variables
++ can provided the implementation of interface
++ is used to declare abstract class
++ can extended another class and implement multiple interfaces
++ can extended using keyword "extend"
++ can have class members like private, protected, etc, ...
+
+--------------------------
+Interface
++ have only abstract methods, it can have default and static methods
++ support multiple inheritance
++ only static and final variables
++ can't provide implementation of abstract class
++ is used to declare interface
++ Can extend another interface only
++ An Interface can be implemented using keyword "implements"
++ Public by default

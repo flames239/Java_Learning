@@ -30,10 +30,13 @@ public class InterfaceDemo implements Note {
         InterfaceDemo id = new InterfaceDemo();
         /// Abstract method
         id.method1();
+
         /// Default method
         id.method2();
+
         /// Use interface, can call static method in Interface
         Note.method3();
+
         /// call interface method
         id.method4("");
 
@@ -48,9 +51,6 @@ public class InterfaceDemo implements Note {
         Note.method3();
         /// not possible to call Interface child class method with Interface
         // n.method4();
-
-
-
     }
 
 
