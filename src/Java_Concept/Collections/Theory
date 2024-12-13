@@ -1,0 +1,13 @@
+Collection is an interface in java.ulti.package
+
+Only Objects can be stored in Collections
+
+------------------------------------
+Arraylist
+- can store different data type -> Integer, String, Float - allowed
+- Insertion order is preserved - index
+- Duplicate Element are support
+- Multiple Null values are support
+- Arraylist is a Dynamic Array - without specifying object creation - insert more values
+
+

@@ -1,0 +1,9 @@
+Throw
+- is used throw an exception explicitly in code
+- is followed by an instance (new keyword) of the Exception to be throw
+- can throw only once Exception at a time, cannot throw multiple Exception
+------------------------
+Throws
+- is used in method signature to declare an exception which can be occurred
+- is followed by class names of the Exception to be throw
+- declare multiple exception in the method signature

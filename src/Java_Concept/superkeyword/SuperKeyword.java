@@ -1,45 +1,30 @@
 package Java_Concept.superkeyword;
 
-class Car {
-    int speed = 100;;
+class Animal {
+    String name = "Animal";
 
-    Car() {
-        super();
-        System.out.println("Car default constructor - Parent Class");
-    }
-    void accelerate() {
-        System.out.println("Accelerate in Parent class");
+    void display() {
+        System.out.println("This is an animal.");
     }
 }
 
-class BMW extends Car {
-    int speed = 150;
+class Dog extends Animal {
+    String name = "Dog";
 
-    BMW() {
-        super();
-//        System.out.println("BWM default constructor");
+    void display() {
+        System.out.println("This is a dog.");
     }
 
-    void displaySpeed() {
-        // child class variable
-        System.out.println("Speed of BMW when not using super keyword: " + speed);
-
-        // immediate parent class variable
-        System.out.println("Speed of BMW when using super keyword: " + super.speed);
-    }
-
-    void accelerate() {
-        System.out.println("Accelerate in Child class");
-
-        // call method in parent class immediate when using super
-        super.accelerate();
+    void show() {
+        System.out.println("Name from superclass: " + super.name); // Accessing superclass variable
+        super.display(); // Calling superclass method
     }
 }
 
 public class SuperKeyword {
     public static void main(String[] args) {
-        BMW bmw = new BMW();
-//        bmw.displaySpeed();
-//        bmw.accelerate();
+        Dog dog = new Dog();
+        dog.show(); // Output: Name from superclass: Animal
+        //         This is an animal.
     }
 }
