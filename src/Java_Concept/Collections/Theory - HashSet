@@ -1,0 +1,6 @@
+is Class implement set interface
+1 - support Heterogenerous - allowed
+2 - insertion order is not preserved - no index
+3 - Duplicate elements - not allowed
+4 - Multiple Null Value not supported / Single null is supported
+5 - is also Dynamic, can add more value during run time

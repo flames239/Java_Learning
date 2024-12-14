@@ -1,0 +1,6 @@
+is a class which implements Map interface
+--- Key, Value pair
+
+1 - Data can be stored as Key, value pair
+2 - Key is unique and Value can be duplicate
+3 - Insertion order not perserved
